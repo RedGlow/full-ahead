@@ -1,0 +1,21 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 1em;
+}
+
+.list li {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 374/448;
+  align-content: end;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  text-shadow:
+    -1px -1px 0 #666,
+    1px -1px 0 #666,
+    -1px 1px 0 #666,
+    1px 1px 0 #666;
+}
